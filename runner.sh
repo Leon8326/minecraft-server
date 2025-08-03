@@ -9,5 +9,5 @@ if ! command -v java &> /dev/null; then
 fi
 
 if [[ -f "server.jar" && "$1" == "" ]]; then
-    java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.8.jar nogui
+    java -Xmx1024M -Xms1024M -jar server.jar nogui
 fi
